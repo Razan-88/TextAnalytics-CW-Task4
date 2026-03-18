@@ -1,0 +1,15 @@
+# --- Python & Environment ---
+__pycache__/
+*.py[cod]
+venv/
+env/
+.venv/
+
+# --- Notebooks & Tools ---
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
