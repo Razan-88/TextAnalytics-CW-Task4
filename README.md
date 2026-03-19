@@ -3,7 +3,7 @@
 ## Project Objective
 This project analyses customer support tickets to identify and summmarise the most common issues raidsed by customers, with the aim of generating actionable insights for product and services improvenment. The project also evaluates how different text analytics methods influence the quality, consistency, and interpertability of the extraced insights. 
 
-## 4 Technical Objectives
+## Technical Objectives
 - Clustering: Apply k-means and Hierachical (HAC) using TF-IDF vectors and embedding based representations.
 - Stability: Evaluate cluster coherence and stability across different values of k.
 - Pipeline Development: Build a system for preprocessing, text representation, and issue identification\ranking
