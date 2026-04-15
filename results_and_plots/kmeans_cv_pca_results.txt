@@ -1,0 +1,100 @@
+======================================================================
+K-Means + TF-IDF + PCA | Metric: CV
+K range: 2 - 20  |  Best k: 3  |  Best CV: 1.1103
+Best 5 k (lowest CV): [2, 3, 7, 8, 20]
+======================================================================
+
+k=2  CV=1.2262
+--------------------------------------------------
+  Cluster 00 (n=7540) | Software bug
+           Keywords: product, update, data, software, network, error, screen, productivity
+  Cluster 01 (n= 537) | Delivery problem
+           Keywords: account, password, access, reset, login, recover, error, forgotten
+
+k=3  CV=1.1103
+--------------------------------------------------
+  Cluster 00 (n= 441) | Battery life
+           Keywords: error, screen, message, peculiar, popping, product, account, data
+  Cluster 01 (n=6084) | Software bug
+           Keywords: product, data, account, troubleshooting, reset, productivity, network, troubleshoot
+  Cluster 02 (n=1552) | Hardware issue
+           Keywords: update, software, havent, updated, product, firmware, version, running
+
+k=7  CV=1.4912
+--------------------------------------------------
+  Cluster 00 (n= 565) | Battery life
+           Keywords: error, message, screen, peculiar, popping, data, file, loss
+  Cluster 01 (n= 440) | Account access
+           Keywords: intermittent, unexpectedly, product, data, account, software, deleted, update
+  Cluster 02 (n= 178) | Product compatibility
+           Keywords: network, connecting, wifi, home, trouble, detect, update, software
+  Cluster 03 (n=4949) | Delivery problem
+           Keywords: product, account, data, productivity, troubleshooting, troubleshoot, setting, reset
+  Cluster 04 (n= 398) | Software bug
+           Keywords: data, safe, concerned, security, product, account, software, error
+  Cluster 05 (n=1361) | Payment issue
+           Keywords: update, software, havent, product, updated, firmware, version, running
+  Cluster 06 (n= 186) | Cancellation request
+           Keywords: account, password, reset, recover, forgotten, update, login, software
+
+k=8  CV=1.5596
+--------------------------------------------------
+  Cluster 00 (n= 436) | Product compatibility
+           Keywords: update, updated, firmware, product, account, data, error, software
+  Cluster 01 (n=4859) | Refund request
+           Keywords: product, account, data, troubleshooting, productivity, reset, setting, factory
+  Cluster 02 (n= 411) | Software bug
+           Keywords: data, safe, concerned, security, product, account, software, network
+  Cluster 03 (n= 427) | Product setup
+           Keywords: error, screen, message, peculiar, popping, product, account, data
+  Cluster 04 (n= 183) | Account access
+           Keywords: network, internet, connection, troubleshoot, stable, establish, disconnecting, intermittently
+  Cluster 05 (n= 977) | Hardware issue
+           Keywords: update, software, havent, product, version, running, latest, application
+  Cluster 06 (n= 570) | Software bug
+           Keywords: intermittent, unexpectedly, product, turning, yesterday, respond, account, data
+  Cluster 07 (n= 214) | Product recommendation
+           Keywords: application, feature, occurs, consistently, product, account, data, network
+
+k=20  CV=1.2345
+--------------------------------------------------
+  Cluster 00 (n= 408) | Hardware issue
+           Keywords: intermittent, unexpectedly, product, account, software, update, purchase, hardware
+  Cluster 01 (n= 638) | Refund request
+           Keywords: product, troubleshooting, productivity, factory, reset, purchased, manual, purchase
+  Cluster 02 (n= 367) | Product setup
+           Keywords: error, screen, message, peculiar, popping, product, account, hardware
+  Cluster 03 (n= 187) | Software bug
+           Keywords: online, troubleshoot, tutorial, community, forum, product, account, software
+  Cluster 04 (n= 589) | Installation support
+           Keywords: setting, charging, correctly, configured, charger, configuration, product, account
+  Cluster 05 (n= 762) | Payment issue
+           Keywords: software, update, havent, product, version, running, latest, purchase
+  Cluster 06 (n= 186) | Cancellation request
+           Keywords: account, password, reset, recover, forgotten, update, login, software
+  Cluster 07 (n= 183) | Account access
+           Keywords: network, internet, connection, troubleshoot, stable, establish, disconnecting, intermittently
+  Cluster 08 (n= 362) | Software bug
+           Keywords: data, safe, concerned, security, product, account, software, update
+  Cluster 09 (n= 183) | Installation support
+           Keywords: account, access, error, login, correct, regain, displaying, invalid
+  Cluster 10 (n= 142) | Product compatibility
+           Keywords: data, lost, recover, stored, crashed, update, software, productivity
+  Cluster 11 (n= 193) | Display issue
+           Keywords: require, worried, hardwarerelated, repair, replacement, product, software, account
+  Cluster 12 (n= 178) | Product compatibility
+           Keywords: network, connecting, wifi, home, trouble, detect, update, software
+  Cluster 13 (n= 165) | Battery life
+           Keywords: deleted, data, file, important, accidentally, recover, urgently, update
+  Cluster 14 (n=2381) | Software bug
+           Keywords: productivity, troubleshooting, reset, factory, manual, account, application, software
+  Cluster 15 (n= 377) | Software bug
+           Keywords: update, updated, firmware, product, software, account, error, purchase
+  Cluster 16 (n= 191) | Delivery problem
+           Keywords: data, clearing, cache, product, purchase, software, update, account
+  Cluster 17 (n= 187) | Payment issue
+           Keywords: cable, adapter, peripheral, product, software, purchase, address, account
+  Cluster 18 (n= 235) | Display issue
+           Keywords: battery, longer, sudden, decrease, product, address, hardware, error
+  Cluster 19 (n= 163) | Battery life
+           Keywords: data, file, loss, retrieve, encountered, document, disappeared, update
