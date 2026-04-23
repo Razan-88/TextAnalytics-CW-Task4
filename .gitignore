@@ -13,3 +13,7 @@ env/
 # --- System Files ---
 .DS_Store
 Thumbs.db
+
+# model files
+*.joblib
+*.pkl
