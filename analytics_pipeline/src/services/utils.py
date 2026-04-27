@@ -1,3 +1,4 @@
+import json
 import joblib
 import pandas as pd
 import numpy as np
@@ -57,3 +58,22 @@ def saveplot(plot, subdirectory, file_name):
         plot.savefig(file_path)
     except Exception as e:
         print(f"Error saving plot: {e}")
+
+
+def savefile(file_content, subdirectory, file_name):
+    try:
+        dir_path = os.path.join(baseDIR, 'models', subdirectory)
+        os.makedirs(dir_path, exist_ok=True)
+        file_path = os.path.join(dir_path, file_name)
+        with open(file_path, 'w') as f:
+            json.dump(file_content, f, indent=4)
+    except Exception as e:
+        print(f"Error saving file: {e}")
+
+def loadingfile(subdirectory, file_name):
+    try:
+        dir_path = os.path.join(baseDIR, 'models', subdirectory)
+        file_path = os.path.join(dir_path, file_name)
+        return file_path
+    except Exception as e:
+        print(f"Error saving file: {e}")
