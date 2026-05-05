@@ -17,7 +17,7 @@ Environment Control: Added a .gitignore file to prevent uploading local virtual 
 Baseline Staging: Integrated the dataset and the initial task4_customer_support.ipynb into the repository as a starting point.
 - Governance: Team roles were defined as follow:
   - Sentence embeddings + K-means with PCA and without PCA = Rzan
-  - TF-IDF + K-means with SVD and without SVD = Yanna
+  - TF-IDF + K-means with SVD and without SVD = Yannan
   - TF-IDF + HAC was performed = KainingYu
   - Sentence embeddings + HAC = KainingYu and Yannan
   - TF-IDF + LDA = Shankar
