@@ -32,6 +32,7 @@ Baseline Staging: Integrated the dataset and the initial task4\_customer\_suppor
 
 ## Repository Structure
 
+```
 textanalytics-cw-task4/
 │
 ├── README.md
@@ -70,6 +71,7 @@ textanalytics-cw-task4/
         ├── shankara_ng/
         ├── rzan_alkabier/
         └── saranya_srinivas/
+```
 
 
 ## Instructions
